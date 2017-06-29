@@ -1,0 +1,39 @@
+README for pizza2 setup
+
+This project was a combined work from Thiago Amaro (tamaro) and Mahidhar Akarapu (mahidhar).
+See project files under Thiago Amaro (tamaro)
+
+
+>We had changed the day order creating all the database tables including pizza supplies one on guitar shop.
+>As what we done in the first project Pizza ordering was perfectly working.
+>Maximum 50 pizzas are order per day by the user. If you exceed more than 50 pizzas it will show an error.
+>Inventory includes cheese and flour which is managed as per every order as specified
+>In current day all the orders on the particular day will be displayed.
+>We have added code for displaying inventory and pending orders of flour and cheese.
+>We had also changed little bit of code for initializing DB and added some logic for calculating flour and cheese.
+>From the server side we had added code for managing day.
+>In server side added code for the orders and little bit modified code for web service of the day.
+
+Core files used on implementation:
+--Pizza
+proj2/pizza2/database/createdb.sql
+proj2/pizza2/database/dropdb.sql
+
+proj2/pizza2/pizza/index.php
+proj2/pizza2/pizza/order_pizza.php
+proj2/pizza2/pizza/student_welcome.php
+
+proj2/pizza2/admin/day/index.php:
+proj2/pizza2/admin/day/day_list.php
+proj2/pizza2/admin/day/web_services.php
+
+proj2/pizza2/model/inventory_db.php
+proj2/pizza2/model/initial.php
+proj2/pizza2/model/order_db.php
+
+--Server
+proj2/proj2_server/rest/index.php
+proj2/proj2_server/model/order_db.php
+
+
+
